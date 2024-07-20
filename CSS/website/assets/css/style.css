@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald";
+    /* font-family: Arial, sans-serif; */
+}
+
+header {
+    background-color: #303030;
+}
+
+.disp-inline {
+    display: inline;
+}
+
+.row {
+    display: flex;
+}
+.col-33{
+    width: 33.33%;
+    /* padding: 0 15px; */
+}
+/* .container-fluid{
+    width: 100%;
+    padding: 0 15px;
+} */
+.container {
+    /* width: 80%; */
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.justi-spc-btw {
+    justify-content: space-between;
+}
+
+nav>ul>li,
+.headermenu {
+    display: inline-block;
+    /* margin: 50px; */
+    /* height: 200px; */
+    line-height: 70px;
+    margin: 0 15px;
+}
+
+.text-light {
+    color: white;
+
+}
+
+/* .lh-70 {
+    line-height: 70px;
+
+} */
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    background: url(../images/bannerbg.png) center center /cover;
+    /* height: 500px; */
+    /* height: 100vh; */
+    /* height: 750px; */
+    padding-bottom: 50px;
+}
+
+.banner-txt label {
+    margin-top: 10px;
+}
+
+.banner-txt p {
+    width: 80%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.banner-txt {
+    /* margin-top: 250px; */
+    /* padding-top: 250px; */
+    padding: 300px 0 0 100px;
+    width: 50%;
+}
+
+.banner h2 {
+    font-size: 8em;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 90px;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #e8631c;
+}
+.text-center{
+    text-align: center;
+}
+.dance-tour{
+    background-color: #e8631c;
+}
+.dance-tour h2{
+    font-size: 75px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Oswald";
+    text-align: center;
+}
+.w-100{
+    width: 100%;
+}
+.card-image{
+    position: absolute;
+    top: 10px;
+}
+.card{
+    min-height: 500px;
+}
+.position-rele{ position: relative; }
+.card-footer{
+    position: absolute;
+    /* margin: 0 20px; */
+    width: 372px;
+    bottom: 100px;
+    padding: 20px;
+    background-color: #303030;
+}
